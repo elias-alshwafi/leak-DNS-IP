@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "created": "2025-09-14T15:59:57.096781Z"
+  },
+  "scans": {
+    "public_ip": {
+      "https://ifconfig.me/ip": "74.118.126.187",
+      "https://ipinfo.io/ip": "74.118.126.187",
+      "https://icanhazip.com": "74.118.126.187"
+    },
+    "system_resolvers": {
+      "resolv.conf": [
+        "10.23.181.143"
+      ]
+    },
+    "ipv6_enabled": true,
+    "dns_queries": [
+      [
+        "system",
+        ""
+      ],
+      [
+        "10.23.181.143",
+        ""
+      ]
+    ],
+    "traceroute": [
+      "traceroute to kali (127.0.1.1), 30 hops max, 60 byte packets",
+      " 1  kali (127.0.1.1)  0.043 ms  0.027 ms  0.006 ms"
+    ],
+    "tcpdump_text": [
+      {
+        "ts": "2025-09-14T16:00:17.902886Z",
+        "raw": "19:00:17.839288 wlan0 Out IP 10.23.181.194.50734 > 10.23.181.143.53: 19311+ A? mobile.events.data.microsoft.com. (50)",
+        "src": "10.23.181.194.50734",
+        "dst": "10.23.181.143.53"
+      },
+      {
+        "ts": "2025-09-14T16:00:22.926311Z",
+        "raw": "19:00:22.843699 wlan0 Out IP 10.23.181.194.50734 > 10.23.181.143.53: 19311+ A? mobile.events.data.microsoft.com. (50)",
+        "src": "10.23.181.194.50734",
+        "dst": "10.23.181.143.53"
+      }
+    ]
+  }
+}
